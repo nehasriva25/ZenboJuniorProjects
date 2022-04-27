@@ -1,0 +1,226 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdkVersion 31
+    buildToolsVersion "29.0.2"
+
+    defaultConfig {
+        applicationId "com.example.camx"
+        minSdk 21
+        targetSdk 31
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        multiDexEnabled true
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    packagingOptions {
+        // TODO we should try to make our jars more friendly so that this isn't necessary
+        exclude 'META-INF/INDEX.LIST'
+        exclude 'META-INF/NOTICE.md'
+        exclude 'META-INF/io.netty.versions.properties'
+        exclude 'META-INF/LICENSE.md'
+    }
+
+    buildFeatures {
+            dataBinding true
+        }
+
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+        coreLibraryDesugaringEnabled true
+
+    }
+    dependencies {
+        coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:1.0.9'
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.3.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.1'
+    implementation 'com.google.android.material:material:1.4.0'
+    //implementation 'androidx.databinding:library:3.2.0-alpha11'
+//    implementation 'com.google.android.gms:play-services-vision:20.1.3'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+
+    //Robot files
+    implementation files('libs/ZenboJuniorSDK.jar')
+
+
+
+
+    // CameraX core library using the camera2 implementation
+    def camerax_version = "1.1.0-beta02"
+    // The following line is optional, as the core library is included indirectly by camera-camera2
+    implementation "androidx.camera:camera-core:${camerax_version}"
+    implementation "androidx.camera:camera-camera2:${camerax_version}"
+    // If you want to additionally use the CameraX Lifecycle library
+    implementation "androidx.camera:camera-lifecycle:${camerax_version}"
+    // If you want to additionally use the CameraX VideoCapture library
+    implementation "androidx.camera:camera-video:${camerax_version}"
+    // If you want to additionally use the CameraX View class
+    implementation "androidx.camera:camera-view:${camerax_version}"
+    // If you want to additionally use the CameraX Extensions library
+    implementation "androidx.camera:camera-extensions:${camerax_version}"
+
+    implementation 'com.android.support:multidex:1.0.3'
+
+    implementation 'com.google.guava:guava:27.1-android'
+
+    // Azure API for Text Analytics for Health
+    implementation ('com.azure:azure-ai-textanalytics:5.1.0'){
+        // Remove the netty dependency, replace with okhttp
+        exclude group: 'com.azure', module: 'azure-core-http-netty'
+    }
+
+    implementation 'com.azure:azure-core-http-okhttp:1.1.0'
+
+    // needed to support Jackson as Android doesn't include javax.xml.stream
+    implementation group: 'javax.xml.stream', name: 'stax-api', version: '1.0'
+
+    // Not needed to support okHttp, but without this we get 'NoClassDefFoundError' messages
+    implementation 'org.conscrypt:conscrypt-android:2.2.1'
+
+
+
+
+    // OCR APIs
+   // implementation 'com.google.android.gms:play-services-mlkit-text-recognition:18.0.0'
+    implementation 'com.google.mlkit:text-recognition:16.0.0-beta3'
+    //implementation 'com.google.mlkit:barcode-scanning:17.0.2'
+    //implementation "com.google.mlkit:text-recognition"
+     // implementation 'com.google.mlkit:text-recognition:16.0.0-beta3'
+    //implement com.google.mlkit:text-recognition-chinese
+    //implementation "com.google.mlkit:text-recognition-devanagari"
+//    com.google.mlkit:text-recognition-japanese
+//    com.google.mlkit:text-recognition-korean
+
+
+}
+
+
+
+***************************************************************************************************
+OTHER ONE
+***************************************************************************************************
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 32
+    //buildToolsVersion "29.0.2"
+    defaultConfig {
+        applicationId "com.example.camx"
+        minSdkVersion 21
+        targetSdkVersion 32
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        // Required when setting minSdkVersion to 20 or lower
+        multiDexEnabled true
+    }
+    buildTypes {
+        debug {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    packagingOptions {
+        // TODO we should try to make our jars more friendly so that this isn't necessary
+        exclude 'META-INF/INDEX.LIST'
+        exclude 'META-INF/NOTICE.md'
+        exclude 'META-INF/io.netty.versions.properties'
+        exclude 'META-INF/LICENSE.md'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+
+        // Flag to enable support for the new language APIs
+        coreLibraryDesugaringEnabled true
+    }
+    dependencies {
+        coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:1.0.9'
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.3.1'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+
+
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.1'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.exifinterface:exifinterface:1.3.2'
+    //implementation 'androidx.databinding:library:3.2.0-alpha11'
+//    implementation 'com.google.android.gms:play-services-vision:20.1.3'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    implementation 'com.android.support:multidex:1.0.3'
+
+    // We use the azure-data-appconfiguration library as-is
+    implementation('com.azure:azure-ai-textanalytics:5.1.7') {
+        // Remove the netty dependency, replace with okhttp
+        exclude group: 'com.azure', module: 'azure-core-http-netty'
+    }
+    implementation 'com.azure:azure-core:1.26.0'
+    implementation 'com.azure:azure-core-http-okhttp:1.7.10'
+
+    // needed to support Jackson as Android doesn't include javax.xml.stream
+    implementation group: 'javax.xml.stream', name: 'stax-api', version: '1.0'
+
+    // Not needed to support okHttp, but without this we get 'NoClassDefFoundError' messages
+    implementation 'org.conscrypt:conscrypt-android:2.2.1'
+
+
+
+    //Robot files
+    implementation files('libs/ZenboJuniorSDK.jar')
+
+
+
+
+    // CameraX core library using the camera2 implementation
+    def camerax_version = "1.1.0-beta02"
+    // The following line is optional, as the core library is included indirectly by camera-camera2
+    implementation "androidx.camera:camera-core:${camerax_version}"
+    implementation "androidx.camera:camera-camera2:${camerax_version}"
+    // If you want to additionally use the CameraX Lifecycle library
+    implementation "androidx.camera:camera-lifecycle:${camerax_version}"
+    // If you want to additionally use the CameraX VideoCapture library
+    implementation "androidx.camera:camera-video:${camerax_version}"
+    // If you want to additionally use the CameraX View class
+    implementation "androidx.camera:camera-view:${camerax_version}"
+    // If you want to additionally use the CameraX Extensions library
+    implementation "androidx.camera:camera-extensions:${camerax_version}"
+
+
+    //OCR
+    implementation 'com.google.mlkit:text-recognition:16.0.0-beta3'
+
+
+    implementation 'com.google.guava:guava:27.1-android'
+}

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/nsriv/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_list_item_1.xml" value="0.134765625" />
+        <entry key="..\:/Users/nsriv/MyApplication/app/src/main/res/drawable/ic_back.xml" value="0.1" />
+        <entry key="..\:/Users/nsriv/MyApplication/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/nsriv/MyApplication/camx/src/main/res/drawable/help_button.xml" value="0.146875" />
+        <entry key="..\:/Users/nsriv/MyApplication/camx/src/main/res/layout/activity_main.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/nsriv/MyApplication/camx/src/main/res/layout/camera_main.xml" value="0.134765625" />
+        <entry key="..\:/Users/nsriv/MyApplication/camx/src/main/res/layout/data_card.xml" value="0.134765625" />
+        <entry key="..\:/Users/nsriv/MyApplication/camx/src/main/res/layout/hour.xml" value="0.1" />
+        <entry key="..\:/Users/nsriv/MyApplication/camx/src/main/res/layout/med_card.xml" value="0.22" />
+        <entry key="..\:/Users/nsriv/MyApplication/camx/src/main/res/layout/med_event_view.xml" value="0.123046875" />
+        <entry key="..\:/Users/nsriv/MyApplication/camx/src/main/res/layout/med_view.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/nsriv/MyApplication/camx/src/main/res/layout/profile.xml" value="0.115234375" />
+        <entry key="..\:/Users/nsriv/MyApplication/camx/src/main/res/layout/result_show.xml" value="0.22" />
+        <entry key="..\:/Users/nsriv/MyApplication/camx/src/main/res/layout/result_view_on_card.xml" value="0.134765625" />
+        <entry key="..\:/Users/nsriv/MyApplication/camx/src/main/res/layout/user_choose.xml" value="0.123046875" />
+        <entry key="..\:/Users/nsriv/MyApplication/devapp/src/main/res/layout/activity_camera.xml" value="0.15571776155717762" />
+        <entry key="..\:/Users/nsriv/MyApplication/devapp/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/nsriv/MyApplication/devapp/src/main/res/layout/camera_connection_fragment_tracking.xml" value="0.22" />
+        <entry key="..\:/Users/nsriv/MyApplication/healthreadingsdemo/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/nsriv/MyApplication/healthreadingsdemo/src/main/res/layout/camera_main.xml" value="0.1259259259259259" />
+        <entry key="..\:/Users/nsriv/MyApplication/healthreadingsdemo/src/main/res/layout/card_item.xml" value="0.1" />
+        <entry key="..\:/Users/nsriv/MyApplication/healthreadingsdemo/src/main/res/layout/data.xml" value="0.11171875" />
+        <entry key="..\:/Users/nsriv/MyApplication/healthreadingsdemo/src/main/res/layout/data_card.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/nsriv/MyApplication/healthreadingsdemo/src/main/res/layout/healthdata_card.xml" value="0.1" />
+        <entry key="..\:/Users/nsriv/MyApplication/healthreadingsdemo/src/main/res/layout/list_card.xml" value="0.1597222222222222" />
+        <entry key="..\:/Users/nsriv/MyApplication/healthreadingsdemo/src/main/res/layout/new_card.xml" value="0.1597222222222222" />
+        <entry key="..\:/Users/nsriv/MyApplication/healthreadingsdemo/src/main/res/layout/profile.xml" value="0.115234375" />
+        <entry key="..\:/Users/nsriv/MyApplication/healthreadingsdemo/src/main/res/layout/result_show.xml" value="0.1" />
+        <entry key="..\:/Users/nsriv/MyApplication/healthreadingsdemo/src/main/res/layout/result_view_on_card.xml" value="0.1" />
+        <entry key="..\:/Users/nsriv/MyApplication/healthreadingsdemo/src/main/res/layout/second.xml" value="0.11171875" />
+        <entry key="..\:/Users/nsriv/MyApplication/healthreadingsdemo/src/main/res/layout/second_main.xml" value="0.1" />
+        <entry key="..\:/Users/nsriv/MyApplication/healthreadingsdemo/src/main/res/layout/third.xml" value="0.11171875" />
+        <entry key="..\:/Users/nsriv/MyApplication/medicationbuttons/src/main/res/drawable/add_button.xml" value="0.12055555555555555" />
+        <entry key="..\:/Users/nsriv/MyApplication/medicationbuttons/src/main/res/layout/activity_main.xml" value="0.12421875" />
+        <entry key="..\:/Users/nsriv/MyApplication/medicationbuttons/src/main/res/layout/camera_main.xml" value="0.24609375" />
+        <entry key="..\:/Users/nsriv/MyApplication/medicationbuttons/src/main/res/layout/med_event_view.xml" value="0.24609375" />
+        <entry key="..\:/Users/nsriv/MyApplication/medicationbuttons/src/main/res/layout/med_view.xml" value="0.24609375" />
+        <entry key="..\:/Users/nsriv/MyApplication/medicationdemo/src/main/res/drawable/add_button.xml" value="0.2703125" />
+        <entry key="..\:/Users/nsriv/MyApplication/medicationdemo/src/main/res/layout/activity_main.xml" value="0.24609375" />
+        <entry key="..\:/Users/nsriv/MyApplication/medicationdemo/src/main/res/layout/add_med_view.xml" value="0.26953125" />
+        <entry key="..\:/Users/nsriv/MyApplication/medicationdemo/src/main/res/layout/camera_main.xml" value="0.26953125" />
+        <entry key="..\:/Users/nsriv/MyApplication/medicationdemo/src/main/res/layout/choose_added_med_card.xml" value="0.26953125" />
+        <entry key="..\:/Users/nsriv/MyApplication/medicationdemo/src/main/res/layout/data_card.xml" value="0.26953125" />
+        <entry key="..\:/Users/nsriv/MyApplication/medicationdemo/src/main/res/layout/hour.xml" value="0.22" />
+        <entry key="..\:/Users/nsriv/MyApplication/medicationdemo/src/main/res/layout/med_card.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/nsriv/MyApplication/medicationdemo/src/main/res/layout/med_event_view.xml" value="0.20546875" />
+        <entry key="..\:/Users/nsriv/MyApplication/medicationdemo/src/main/res/layout/med_view.xml" value="0.26953125" />
+        <entry key="..\:/Users/nsriv/MyApplication/medicationdemo/src/main/res/layout/result_show.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/nsriv/MyApplication/medicationdemo/src/main/res/layout/result_view_on_card.xml" value="0.26953125" />
+        <entry key="..\:/Users/nsriv/MyApplication/mentalhealthbuttons/src/main/res/drawable/ic_launcher_background.xml" value="0.146875" />
+        <entry key="..\:/Users/nsriv/MyApplication/mentalhealthbuttons/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/nsriv/MyApplication/mentalhealthbuttons/src/main/res/layout/body_pain_card.xml" value="0.134765625" />
+        <entry key="..\:/Users/nsriv/MyApplication/mentalhealthbuttons/src/main/res/layout/body_part_card.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/nsriv/MyApplication/mentalhealthbuttons/src/main/res/layout/breathing_main_view.xml" value="0.1796875" />
+        <entry key="..\:/Users/nsriv/MyApplication/mentalhealthbuttons/src/main/res/layout/breathing_pre_view.xml" value="0.1796875" />
+        <entry key="..\:/Users/nsriv/MyApplication/mentalhealthbuttons/src/main/res/layout/confusion_pre_view.xml" value="0.123046875" />
+        <entry key="..\:/Users/nsriv/MyApplication/mentalhealthbuttons/src/main/res/layout/copd_symptoms.xml" value="0.16845703125" />
+        <entry key="..\:/Users/nsriv/MyApplication/mentalhealthbuttons/src/main/res/layout/hours48_view.xml" value="0.22" />
+        <entry key="..\:/Users/nsriv/MyApplication/mentalhealthbuttons/src/main/res/layout/user_pain_view.xml" value="0.12" />
+        <entry key="..\:/Users/nsriv/MyApplication/mentalhealthdemo/src/main/res/layout/activity_main.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/nsriv/MyApplication/mentalhealthdemo/src/main/res/layout/breathing_view.xml" value="0.1796875" />
+        <entry key="..\:/Users/nsriv/MyApplication/mentalhealthdemo/src/main/res/layout/breathing_vire.xml" value="0.1796875" />
+        <entry key="..\:/Users/nsriv/MyApplication/pilldemo/src/main/res/layout/activity_camera.xml" value="0.1" />
+        <entry key="..\:/Users/nsriv/MyApplication/pilldemo/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/nsriv/MyApplication/postopexercisesdemo/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/nsriv/MyApplication/postopexercisesdemo/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/nsriv/MyApplication/postopexercisesdemo/src/main/res/layout/video_item_view.xml" value="0.1" />
+        <entry key="..\:/Users/nsriv/MyApplication/postopexercisesdemo/src/main/res/layout/video_playing.xml" value="0.1" />
+        <entry key="..\:/Users/nsriv/MyApplication/testingagain/src/main/res/layout/activity_main.xml" value="0.1796875" />
+        <entry key="..\:/Users/nsriv/MyApplication/videotesting/src/main/res/layout/activity_main.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

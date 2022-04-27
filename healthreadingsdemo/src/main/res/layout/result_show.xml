@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    android:background="@color/background">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="100dp"
+                android:paddingBottom="20dp"
+                app:cardCornerRadius="10dp"
+                android:layout_marginHorizontal="100dp"
+                android:id="@+id/image_result_card">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/confirmation_heading"
+                        android:text="Confirm the Following Results"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:layout_width="match_parent"
+                        android:textSize="30dp"
+                        android:layout_height="wrap_content"/>
+
+
+                    <TextView
+                        android:id="@+id/info_text"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:paddingBottom="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/confirmation_heading"
+
+                        />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:id="@+id/retake"
+                    android:text="Retake"
+                    android:backgroundTint="@color/button"
+                    android:layout_marginLeft="100dp"
+
+                    />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="Confirm"
+                    android:id="@+id/confirm"
+                    android:backgroundTint="@color/button"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="100dp"
+                    />
+
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+    
+
+
+    
+    
+
+</LinearLayout>

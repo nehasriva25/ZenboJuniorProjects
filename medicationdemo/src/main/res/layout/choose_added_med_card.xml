@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="50dp"
+    android:id="@+id/id_med_card"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/med_nameHeading"
+            android:layout_width="match_parent"
+            android:paddingHorizontal="15dp"
+            android:layout_height="60dp"
+            android:text="Medication Name"
+            android:textColor="@color/white"
+            android:background="@color/main"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:letterSpacing="0.04"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            >
+
+            <TableRow
+                android:gravity="center_horizontal"
+                android:textAlignment="gravity">
+
+                <TextView
+                    android:text="Dosage:"
+                    android:paddingLeft="20dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+
+                    />
+                <TextView
+                    android:text="Check with your Doctor or read the Label"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/dosage"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="20dp"
+                    android:layout_height="wrap_content"/>
+            </TableRow>
+
+        </TableLayout>
+
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/secondary_color"
+            android:layout_gravity="center"
+            android:id="@+id/editMedInfo"
+            android:text="Add Medication Record"
+            />
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

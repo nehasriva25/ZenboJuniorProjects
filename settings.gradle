@@ -1,0 +1,6 @@
+
+rootProject.name = "My Application"
+include ':postopexercisesdemo'
+include ':healthreadingsdemo'
+include ':mentalhealthdemo'
+include ':medicationdemo'
